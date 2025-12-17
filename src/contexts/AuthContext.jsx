@@ -23,7 +23,7 @@ function AuthProvider({children}) {
 }
 
 function useAuth() {
-    useContext(AuthContext);
+    return useContext(AuthContext);
 }
 
 export {

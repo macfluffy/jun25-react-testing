@@ -1,6 +1,9 @@
 // Necessary imports
 import React from "react";
 import {render, screen} from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
+
+// Components to be tested
 import Counter from "../components/Counter";
 
 // Test Cases
